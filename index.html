@@ -3,27 +3,35 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>VisioLens</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>  
 <body>
     <link href="file:///C:/Users/2023102020078/Downloads/4ux3QRQ9Zlgg5KPqKlcOP.jpg" rel="stylesheet">
+    <div id="tela-login">
     <div class="container">
+        <img src="file:///C:/Users/2023102020078/Downloads/LogoVisioLens.png" alt="LogoVisioLens">
+    </div>
+
+    <div class="login">
         <h2>Login</h2>
-        <form>
-    <input type="email" placeholder="E-mail" required>
-    <input type="password" placeholder="Senha" required>
-    <button type="submit">Entrar</button>
-        </form>
-        <p style="text-align:center; margin-top:10px;">
-        <a href="cadastro.html">Criar conta</a>
-        </p>
+         <form action="login">
+            <label for="email">E-mail:</label>
+            <input class="label-email" type="email" id="email">
+            <label for="senha">Senha:</label>
+            <input class="label-senha" type="password" id="senha">
+            <a href="esquecerSenha.html">Esqueceu a senha?</a>
+            <button type="submit">ENTRAR</button>
+            <a href="cadastro.html">CRIAR CONTA</a>
+
+            <div class="social-icons">
+                <img src="file:///C:/Users/2023102020078/Downloads/LogoGoogle.png" alt="LogoGoogle">
+                <img src="file:///C:/Users/2023102020078/Downloads/LogoFaceBook.png" alt="LogoFaceBook">
+                <img src="file:///C:/Users/2023102020078/Downloads/LogoInstagram.png" alt="LogoInstagram">
+              </div>
+         </form>
     </div>
-    <div class="container2">
-        <h2>
-            opa
-        </h2>
-    </div>
+</div>
 </body>
 </html>
