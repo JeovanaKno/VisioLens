@@ -1,5 +1,5 @@
 
-/*TELA DE LOGIN*/
+/*TELA DE CADASTRO USUSARio*/
 /* ---------- Reset / base ---------- */
 * {
     margin: 0;
@@ -46,23 +46,22 @@
     width: 460px;
     height: 600px;
     background: #fff;
-    border-radius: 0px;
     box-shadow: 0 0 20px #060606;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; /* joga o conteúdo para o topo */
+    padding-top: 50px; /* empurra para baixo */
     padding-inline: 24px;
-  }
-  
+}
   /* Título LOGIN */
   .login h2 {
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: .5px;
     color: #000;
-    margin-bottom: 24px;
+    margin-bottom: 4px;
   }
   
   /* Formulário */
@@ -81,8 +80,8 @@
   
   /* Inputs arredondados estilo “pílula” */
   .label-email,
-  .label-senha {
-    height: 48px;
+  .label-senha,.label-nome {
+    height: 40px;
     border: 1.5px solid #111;
     border-radius: 28px;
     padding: 0 16px;
